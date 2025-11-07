@@ -1,0 +1,19 @@
+{
+  "name": "pescaesolta",
+  "version": "1.0.0",
+  "description": "Bot Node.js que encaminha mensagens do WhatsApp (via UltraMsg) para o Telegram.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
+}
