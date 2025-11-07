@@ -6,8 +6,8 @@ const app = express();
 app.use(express.json());
 
 // 🔧 CONFIGURAÇÕES — personalize com seus dados
-const TELEGRAM_TOKEN = "SEU_TOKEN_DO_TELEGRAM_AQUI";
-const TELEGRAM_CHAT_ID = "SEU_CHAT_ID_AQUI"; // pode ser ID de grupo ou canal
+const TELEGRAM_TOKEN = "8371637757:AAHK6XH3XhmR6Nk0ZDAUSOIBaQGCTZXcEmE";
+const TELEGRAM_CHAT_ID = "-1001826813517"; // pode ser ID de grupo ou canal
 
 // Função auxiliar para enviar texto ao Telegram
 async function sendTextToTelegram(text) {
@@ -114,3 +114,4 @@ app.get("/", (req, res) => {
 // 🚀 Inicia o servidor
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🚀 Servidor rodando na porta ${PORT}`));
+
